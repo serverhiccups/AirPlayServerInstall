@@ -1,5 +1,6 @@
 mv airplayserverinstall.sh ~
 mv start.sh ~
+rm README.md
 cd
 echo Welcome to PiPlay Easy setup
 echo The process will now begin..
