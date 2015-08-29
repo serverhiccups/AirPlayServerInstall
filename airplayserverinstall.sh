@@ -34,6 +34,6 @@ sudo chmod a+x start.sh
 echo "Finished!!"
 echo Just run ./start.sh to activate PiPlay.
 sudo rmdir airplayserverinstall
-sudo rm airplayserverinstall.sh
+sudo rm AirPlayServerInstall.sh
 exit
 
