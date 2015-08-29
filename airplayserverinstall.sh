@@ -23,7 +23,7 @@ sudo ./Build install
 sleep 10
 cd
 echo Fetching Shairport...
-git clone https://github.com/hendrik82/shairport.git
+git clone https://github.com/hendrikw82/shairport.git
 cd shairport
 echo Building...
 make
