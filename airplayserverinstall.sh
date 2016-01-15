@@ -5,9 +5,9 @@ cd
 echo Welcome to PiPlay Easy setup
 echo The process will now begin..
 echo Updating...
-sudo apt-get update && sudo apt-get upgrade
+yes Y\n | sudo apt-get update && yes Y\n | sudo apt-get upgrade
 echo Installing libraries...
-sudo apt-get install git libao-dev libssl-dev libcrypt-openssl-rsa-perl libio-socket-inet6-perl libwww-perl avahi-utils libmodule-build-perl
+yes Y\n | sudo apt-get install git libao-dev libssl-dev libcrypt-openssl-rsa-perl libio-socket-inet6-perl libwww-perl avahi-utils libmodule-build-perl
 cd
 echo Fetching Perl-Net-SDP..
 git clone https://github.com/njh/perl-net-sdp.git perl-net-sdp
