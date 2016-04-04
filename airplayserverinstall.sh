@@ -1,4 +1,3 @@
-mv airplayserverinstall.sh ~
 mv start.sh ~
 rm README.md
 cd
